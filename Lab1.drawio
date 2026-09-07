@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="А0 - Контекстна діаграма" id="uPwO1aYJ9TAs8Ctcz3Eh">
+    <mxGraphModel dx="918" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YqEWaB1KO_PN31GwzjxC-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
