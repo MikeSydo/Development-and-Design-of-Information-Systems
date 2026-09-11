@@ -896,4 +896,142 @@
       </root>
     </mxGraphModel>
   </diagram>
+<diagram name="A22F FEO — Оцінювання лабораторних і практичних робіт" id="feo_a22">
+  <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+    <root>
+      <mxCell id="0"/>
+      <mxCell id="1" parent="0"/>
+
+      <!-- Заголовок -->
+      <mxCell id="feo_title"
+              value="&lt;b&gt;A22F — FEO: Основний сценарій оцінювання практичних і лабораторних робіт&lt;/b&gt;"
+              style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#ffffff;strokeColor=none;fillColor=none;"
+              vertex="1" parent="1">
+        <mxGeometry x="240" y="35" width="1020" height="35" as="geometry"/>
+      </mxCell>
+
+      <!-- Пояснення FEO -->
+      <mxCell id="feo_note"
+              value="Спрощене пояснювальне подання: показано шлях роботи студента, перевірку, захист і фіксацію результату."
+              style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#d9e2f3;strokeColor=none;fillColor=none;"
+              vertex="1" parent="1">
+        <mxGeometry x="270" y="80" width="960" height="25" as="geometry"/>
+      </mxCell>
+
+      <!-- A221 -->
+      <mxCell id="feo_a221"
+              value="A221&lt;br&gt;&lt;b&gt;Прийняти роботу&lt;br&gt;студента&lt;/b&gt;"
+              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
+              vertex="1" parent="1">
+        <mxGeometry x="130" y="330" width="190" height="100" as="geometry"/>
+      </mxCell>
+
+      <!-- A222 -->
+      <mxCell id="feo_a222"
+              value="A222&lt;br&gt;&lt;b&gt;Перевірити виконання&lt;br&gt;завдання&lt;/b&gt;"
+              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
+              vertex="1" parent="1">
+        <mxGeometry x="400" y="330" width="190" height="100" as="geometry"/>
+      </mxCell>
+
+      <!-- A223 -->
+      <mxCell id="feo_a223"
+              value="A223&lt;br&gt;&lt;b&gt;Перевірити оформлення&lt;br&gt;та зміст звіту&lt;/b&gt;"
+              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
+              vertex="1" parent="1">
+        <mxGeometry x="670" y="330" width="190" height="100" as="geometry"/>
+      </mxCell>
+
+      <!-- A224 -->
+      <mxCell id="feo_a224"
+              value="A224&lt;br&gt;&lt;b&gt;Провести&lt;br&gt;захист роботи&lt;/b&gt;"
+              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
+              vertex="1" parent="1">
+        <mxGeometry x="940" y="330" width="190" height="100" as="geometry"/>
+      </mxCell>
+
+      <!-- A225 -->
+      <mxCell id="feo_a225"
+              value="A225&lt;br&gt;&lt;b&gt;Зафіксувати та&lt;br&gt;підсумувати бали&lt;/b&gt;"
+              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
+              vertex="1" parent="1">
+        <mxGeometry x="1210" y="330" width="190" height="100" as="geometry"/>
+      </mxCell>
+
+      <!-- Вхід -->
+      <mxCell id="feo_input"
+              value="Виконана практична /&lt;br&gt;лабораторна робота"
+              edge="1" parent="1" target="feo_a221"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=15;labelBackgroundColor=#171717;">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="20" y="380" as="sourcePoint"/>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- A221 -> A222 -->
+      <mxCell id="feo_e221_222"
+              value="Прийнята робота"
+              edge="1" parent="1" source="feo_a221" target="feo_a222"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- A222 -> A223 -->
+      <mxCell id="feo_e222_223"
+              value="Перевірене виконання"
+              edge="1" parent="1" source="feo_a222" target="feo_a223"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- A223 -> A224 -->
+      <mxCell id="feo_e223_224"
+              value="Перевірений звіт"
+              edge="1" parent="1" source="feo_a223" target="feo_a224"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- A224 -> A225 -->
+      <mxCell id="feo_e224_225"
+              value="Результат захисту"
+              edge="1" parent="1" source="feo_a224" target="feo_a225"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- Вихід -->
+      <mxCell id="feo_output"
+              value="Бали за практичні та&lt;br&gt;лабораторні роботи"
+              edge="1" parent="1" source="feo_a225"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=15;labelBackgroundColor=#171717;">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="1470" y="380" as="targetPoint"/>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Зворотна петля: робота на доопрацювання -->
+      <mxCell id="feo_feedback"
+              value="Робота на доопрацювання"
+              edge="1" parent="1" source="feo_a224" target="feo_a221"
+              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#f8cecc;fontColor=#f8cecc;fontSize=14;labelBackgroundColor=#171717;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=1;entryPerimeter=1;">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="1035" y="570"/>
+            <mxPoint x="225" y="570"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Пояснювальна примітка -->
+      <mxCell id="feo_feedback_note"
+              value="Якщо захист не пройдено або виявлено помилки, робота повертається студенту на доопрацювання."
+              style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#f8cecc;strokeColor=none;fillColor=none;"
+              vertex="1" parent="1">
+        <mxGeometry x="360" y="610" width="780" height="25" as="geometry"/>
+      </mxCell>
+
+    </root>
+  </mxGraphModel>
+</diagram>
 </mxfile>
