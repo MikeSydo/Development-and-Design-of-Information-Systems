@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Perplexity" pages="6">
+<mxfile host="app.diagrams.net" agent="Perplexity" pages="8">
   <diagram name="A0 Контекстна діаграма" id="ctx">
     <mxGraphModel dx="918" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="A0 Декомпозиція оцінювання" id="dec0">
-    <mxGraphModel dx="3895" dy="2495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2680" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,12 +57,12 @@
             <mxPoint x="190" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vnXV9UxJSGMwxh0NnNZ1-36" connectable="0" parent="vnXV9UxJSGMwxh0NnNZ1-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Дані про начальну діяльність" vertex="1">
+        <mxCell id="vnXV9UxJSGMwxh0NnNZ1-36" connectable="0" parent="vnXV9UxJSGMwxh0NnNZ1-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Дані про навчальну діяльність" vertex="1">
           <mxGeometry relative="1" x="0.45" as="geometry">
             <mxPoint x="-50" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vnXV9UxJSGMwxh0NnNZ1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Зібрати дані проначальну діяльність&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А1&lt;/div&gt;" vertex="1">
+        <mxCell id="vnXV9UxJSGMwxh0NnNZ1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Зібрати дані про навчальну діяльність&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А1&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="220" x="-60" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="vnXV9UxJSGMwxh0NnNZ1-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="vnXV9UxJSGMwxh0NnNZ1-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Результати навчання та оцінки&lt;/font&gt;">
@@ -1049,6 +1049,243 @@
               <mxPoint x="345.08" y="750" />
               <mxPoint x="847.54" y="750" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-1aPvQghB1joA-fJvIBv" name="А2R розщеплена">
+    <mxGraphModel dx="918" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5PTeHgeT3yKjKW5enYoD-1" edge="1" parent="1" source="-_1uITV4P1BFpWquk90--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PTeHgeT3yKjKW5enYoD-2" connectable="0" parent="5PTeHgeT3yKjKW5enYoD-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Семестрові бали" vertex="1">
+          <mxGeometry relative="1" x="-0.1368" y="-1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_1uITV4P1BFpWquk90--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;Оцінити семестрову успішність&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-_1uITV4P1BFpWquk90--2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" target="-_1uITV4P1BFpWquk90--1" value="Дані про студентів та резултати">
+          <mxGeometry relative="1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="30" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_1uITV4P1BFpWquk90--3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="-_1uITV4P1BFpWquk90--1" value="Уточнені дані та результати">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="30" y="340" />
+              <mxPoint x="30" y="335" />
+            </Array>
+            <mxPoint x="20" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_1uITV4P1BFpWquk90--4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="-_1uITV4P1BFpWquk90--1" value="&lt;div&gt;Критерії оцінювання&lt;/div&gt;&lt;div&gt;(ECTS, національна шкала)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" />
+              <mxPoint x="360" y="130.5" />
+              <mxPoint x="365" y="130.5" />
+            </Array>
+            <mxPoint x="360" y="-40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_1uITV4P1BFpWquk90--5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="-_1uITV4P1BFpWquk90--1" value="Програмна реалізація системи">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="550" />
+            </Array>
+            <mxPoint x="365" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_1uITV4P1BFpWquk90--8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" value="Навчальний план">
+          <mxGeometry relative="1" x="0.3443" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" />
+              <mxPoint x="470" y="130.5" />
+              <mxPoint x="475" y="130.5" />
+            </Array>
+            <mxPoint x="470" y="-40" as="sourcePoint" />
+            <mxPoint x="475" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5PTeHgeT3yKjKW5enYoD-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" value="Викладач">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="550" />
+            </Array>
+            <mxPoint x="480" y="560" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AdBDEHcUlzGrTviUumz-" name="A2R декомпонована">
+    <mxGraphModel dx="1080" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vr4cWmsZXihjmeVbagkl-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" target="vr4cWmsZXihjmeVbagkl-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="299.5" as="sourcePoint" />
+            <mxPoint x="990" y="299.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-2" connectable="0" parent="vr4cWmsZXihjmeVbagkl-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Семестрові бали" vertex="1">
+          <mxGeometry relative="1" x="-0.1368" y="-1" as="geometry">
+            <mxPoint x="31" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" value="Дані про студентів та резултати">
+          <mxGeometry relative="1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="Журнал відвідування">
+          <mxGeometry relative="1" x="-0.9322" y="-18" as="geometry">
+            <mxPoint x="11" y="-3" as="offset" />
+            <Array as="points">
+              <mxPoint x="300" y="325" />
+              <mxPoint x="300" y="320" />
+            </Array>
+            <mxPoint x="290" y="325" as="sourcePoint" />
+            <mxPoint x="580" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" value="&lt;div&gt;Критерії оцінювання&lt;/div&gt;&lt;div&gt;(ECTS, національна шкала)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="-10" />
+              <mxPoint x="630" y="120.5" />
+              <mxPoint x="635" y="120.5" />
+            </Array>
+            <mxPoint x="630" y="-50" as="sourcePoint" />
+            <mxPoint x="635" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" value="Програмна реалізація системи">
+          <mxGeometry relative="1" x="-0.9006" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="640" y="540" />
+            </Array>
+            <mxPoint x="630" y="620" as="sourcePoint" />
+            <mxPoint x="640" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" value="Навчальний план">
+          <mxGeometry relative="1" x="0.3443" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="730" y="-10" />
+              <mxPoint x="730" y="120.5" />
+              <mxPoint x="735" y="120.5" />
+            </Array>
+            <mxPoint x="730" y="-50" as="sourcePoint" />
+            <mxPoint x="735" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" x="-0.6639" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="740" y="540" />
+            </Array>
+            <mxPoint x="740" y="650" as="sourcePoint" />
+            <mxPoint x="740" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;Оцінити семестрову успішність&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="580" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cUKk6ZDwcRl4Q8xBHExP-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="cUKk6ZDwcRl4Q8xBHExP-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="210.06" />
+              <mxPoint x="1140" y="415" />
+            </Array>
+            <mxPoint x="530" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUKk6ZDwcRl4Q8xBHExP-5" connectable="0" parent="cUKk6ZDwcRl4Q8xBHExP-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Уточнені дані та результати" vertex="1">
+          <mxGeometry relative="1" x="0.3799" y="-2" as="geometry">
+            <mxPoint x="-114" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;Зібрати дані&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-12" edge="1" parent="1" source="vr4cWmsZXihjmeVbagkl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.014;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;" target="vr4cWmsZXihjmeVbagkl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vr4cWmsZXihjmeVbagkl-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;Оцінити іспит/залік&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="880" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iRNaMNKWLN8YhiopTf_n-1" edge="1" parent="1" source="cUKk6ZDwcRl4Q8xBHExP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="vr4cWmsZXihjmeVbagkl-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260.09" y="500" />
+              <mxPoint x="430.09" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iRNaMNKWLN8YhiopTf_n-2" connectable="0" parent="iRNaMNKWLN8YhiopTf_n-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Потреба в уточнені&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.7393" y="-5" as="geometry">
+            <mxPoint x="5" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUKk6ZDwcRl4Q8xBHExP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="&lt;div&gt;Сформувати підсумковий&lt;/div&gt;&lt;div&gt;результат&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="1150" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="cUKk6ZDwcRl4Q8xBHExP-2" edge="1" parent="1" source="vr4cWmsZXihjmeVbagkl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" target="cUKk6ZDwcRl4Q8xBHExP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUKk6ZDwcRl4Q8xBHExP-3" connectable="0" parent="cUKk6ZDwcRl4Q8xBHExP-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Бали іспиту/заліка" vertex="1">
+          <mxGeometry relative="1" x="-0.2159" y="-1" as="geometry">
+            <mxPoint x="-14" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUKk6ZDwcRl4Q8xBHExP-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.714;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="vr4cWmsZXihjmeVbagkl-13" value="Викладач">
+          <mxGeometry relative="1" x="-0.7291" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="740" y="540.06" />
+              <mxPoint x="1037.06" y="540.06" />
+            </Array>
+            <mxPoint x="740" y="650" as="sourcePoint" />
+            <mxPoint x="740" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_PW_T1SQRt278mev4XI-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Оцінки у заліковій книжці (ECTS, національна шкала)&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.2" y="23" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1710" y="420" />
+            </Array>
+            <mxPoint x="1370" y="420.5" as="sourcePoint" />
+            <mxPoint x="1720" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2k9BByLy4fAyFUmO7rTv-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Оцінки у відомості (університетська шкала)&lt;/font&gt;">
+          <mxGeometry relative="1" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1720" y="470" />
+            </Array>
+            <mxPoint x="1370" y="470.5" as="sourcePoint" />
+            <mxPoint x="1730" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
