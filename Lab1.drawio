@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Perplexity" pages="5">
+<mxfile host="app.diagrams.net" agent="Perplexity" pages="6">
   <diagram name="A0 Контекстна діаграма" id="ctx">
     <mxGraphModel dx="918" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -896,142 +896,105 @@
       </root>
     </mxGraphModel>
   </diagram>
-<diagram name="A22F FEO — Оцінювання лабораторних і практичних робіт" id="feo_a22">
-  <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
-    <root>
-      <mxCell id="0"/>
-      <mxCell id="1" parent="0"/>
-
-      <!-- Заголовок -->
-      <mxCell id="feo_title"
-              value="&lt;b&gt;A22F — FEO: Основний сценарій оцінювання практичних і лабораторних робіт&lt;/b&gt;"
-              style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#ffffff;strokeColor=none;fillColor=none;"
-              vertex="1" parent="1">
-        <mxGeometry x="240" y="35" width="1020" height="35" as="geometry"/>
-      </mxCell>
-
-      <!-- Пояснення FEO -->
-      <mxCell id="feo_note"
-              value="Спрощене пояснювальне подання: показано шлях роботи студента, перевірку, захист і фіксацію результату."
-              style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#d9e2f3;strokeColor=none;fillColor=none;"
-              vertex="1" parent="1">
-        <mxGeometry x="270" y="80" width="960" height="25" as="geometry"/>
-      </mxCell>
-
-      <!-- A221 -->
-      <mxCell id="feo_a221"
-              value="A221&lt;br&gt;&lt;b&gt;Прийняти роботу&lt;br&gt;студента&lt;/b&gt;"
-              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
-              vertex="1" parent="1">
-        <mxGeometry x="130" y="330" width="190" height="100" as="geometry"/>
-      </mxCell>
-
-      <!-- A222 -->
-      <mxCell id="feo_a222"
-              value="A222&lt;br&gt;&lt;b&gt;Перевірити виконання&lt;br&gt;завдання&lt;/b&gt;"
-              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
-              vertex="1" parent="1">
-        <mxGeometry x="400" y="330" width="190" height="100" as="geometry"/>
-      </mxCell>
-
-      <!-- A223 -->
-      <mxCell id="feo_a223"
-              value="A223&lt;br&gt;&lt;b&gt;Перевірити оформлення&lt;br&gt;та зміст звіту&lt;/b&gt;"
-              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
-              vertex="1" parent="1">
-        <mxGeometry x="670" y="330" width="190" height="100" as="geometry"/>
-      </mxCell>
-
-      <!-- A224 -->
-      <mxCell id="feo_a224"
-              value="A224&lt;br&gt;&lt;b&gt;Провести&lt;br&gt;захист роботи&lt;/b&gt;"
-              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
-              vertex="1" parent="1">
-        <mxGeometry x="940" y="330" width="190" height="100" as="geometry"/>
-      </mxCell>
-
-      <!-- A225 -->
-      <mxCell id="feo_a225"
-              value="A225&lt;br&gt;&lt;b&gt;Зафіксувати та&lt;br&gt;підсумувати бали&lt;/b&gt;"
-              style="rounded=0;whiteSpace=wrap;html=1;fillColor=#26334d;strokeColor=#7890bd;fontColor=#ffffff;fontSize=16;align=center;verticalAlign=middle;"
-              vertex="1" parent="1">
-        <mxGeometry x="1210" y="330" width="190" height="100" as="geometry"/>
-      </mxCell>
-
-      <!-- Вхід -->
-      <mxCell id="feo_input"
-              value="Виконана практична /&lt;br&gt;лабораторна робота"
-              edge="1" parent="1" target="feo_a221"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=15;labelBackgroundColor=#171717;">
-        <mxGeometry relative="1" as="geometry">
-          <mxPoint x="20" y="380" as="sourcePoint"/>
-        </mxGeometry>
-      </mxCell>
-
-      <!-- A221 -> A222 -->
-      <mxCell id="feo_e221_222"
-              value="Прийнята робота"
-              edge="1" parent="1" source="feo_a221" target="feo_a222"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
-        <mxGeometry relative="1" as="geometry"/>
-      </mxCell>
-
-      <!-- A222 -> A223 -->
-      <mxCell id="feo_e222_223"
-              value="Перевірене виконання"
-              edge="1" parent="1" source="feo_a222" target="feo_a223"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
-        <mxGeometry relative="1" as="geometry"/>
-      </mxCell>
-
-      <!-- A223 -> A224 -->
-      <mxCell id="feo_e223_224"
-              value="Перевірений звіт"
-              edge="1" parent="1" source="feo_a223" target="feo_a224"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
-        <mxGeometry relative="1" as="geometry"/>
-      </mxCell>
-
-      <!-- A224 -> A225 -->
-      <mxCell id="feo_e224_225"
-              value="Результат захисту"
-              edge="1" parent="1" source="feo_a224" target="feo_a225"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=14;labelBackgroundColor=#171717;">
-        <mxGeometry relative="1" as="geometry"/>
-      </mxCell>
-
-      <!-- Вихід -->
-      <mxCell id="feo_output"
-              value="Бали за практичні та&lt;br&gt;лабораторні роботи"
-              edge="1" parent="1" source="feo_a225"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#ffffff;fontColor=#ffffff;fontSize=15;labelBackgroundColor=#171717;">
-        <mxGeometry relative="1" as="geometry">
-          <mxPoint x="1470" y="380" as="targetPoint"/>
-        </mxGeometry>
-      </mxCell>
-
-      <!-- Зворотна петля: робота на доопрацювання -->
-      <mxCell id="feo_feedback"
-              value="Робота на доопрацювання"
-              edge="1" parent="1" source="feo_a224" target="feo_a221"
-              style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#f8cecc;fontColor=#f8cecc;fontSize=14;labelBackgroundColor=#171717;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=1;entryPerimeter=1;">
-        <mxGeometry relative="1" as="geometry">
-          <Array as="points">
-            <mxPoint x="1035" y="570"/>
-            <mxPoint x="225" y="570"/>
-          </Array>
-        </mxGeometry>
-      </mxCell>
-
-      <!-- Пояснювальна примітка -->
-      <mxCell id="feo_feedback_note"
-              value="Якщо захист не пройдено або виявлено помилки, робота повертається студенту на доопрацювання."
-              style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#f8cecc;strokeColor=none;fillColor=none;"
-              vertex="1" parent="1">
-        <mxGeometry x="360" y="610" width="780" height="25" as="geometry"/>
-      </mxCell>
-
-    </root>
-  </mxGraphModel>
-</diagram>
+  <diagram name="A22F FEO Оцінювання лабораторних і практичних робіт" id="feo_a22">
+    <mxGraphModel dx="1530" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-1" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="InSUZTFv-AGbv1Kh3kdJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-2" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Прийнята робота" vertex="1">
+          <mxGeometry relative="1" x="-0.5128" y="-1" as="geometry">
+            <mxPoint x="21" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-3" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="InSUZTFv-AGbv1Kh3kdJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-4" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Неправильно виконане&amp;nbsp;&lt;/div&gt;&lt;div&gt;завдання&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5714" y="4" as="geometry">
+            <mxPoint x="22" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Прийняти роботу студента&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А223&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="660" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-6" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="InSUZTFv-AGbv1Kh3kdJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-7" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Перевірене&amp;nbsp;&lt;/div&gt;&lt;div&gt;завдання&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4444" y="1" as="geometry">
+            <mxPoint x="19" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Перевірити виконання завдання&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А222&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="500" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-9" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="InSUZTFv-AGbv1Kh3kdJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-10" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Перевірений звіт" vertex="1">
+          <mxGeometry relative="1" x="0.2306" y="-1" as="geometry">
+            <mxPoint x="31" y="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-11" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Перевірити оформлення та зміст звіту&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А221&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="340" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-12" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="InSUZTFv-AGbv1Kh3kdJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-13" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Результат захисту" vertex="1">
+          <mxGeometry relative="1" x="-0.482" y="3" as="geometry">
+            <mxPoint x="22" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-14" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Провести захист роботи&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А224&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="870" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="InSUZTFv-AGbv1Kh3kdJ-11" value="Звіт лабораторної роботи">
+          <mxGeometry relative="1" x="-0.4784" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="90.02999999999997" y="220" />
+            </Array>
+            <mxPoint x="60" y="220" as="sourcePoint" />
+            <mxPoint x="300" y="214.8800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-16" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-17" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Бал за практичну/лабораторну роботу" vertex="1">
+          <mxGeometry relative="1" x="-0.1131" y="-2" as="geometry">
+            <mxPoint x="42" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Зафіксувати та&amp;nbsp;&lt;/div&gt;&lt;div&gt;підсумувати бали&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А225&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="1050" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-29" edge="1" parent="1" source="InSUZTFv-AGbv1Kh3kdJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.172;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="InSUZTFv-AGbv1Kh3kdJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-30" connectable="0" parent="InSUZTFv-AGbv1Kh3kdJ-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;неправильно оформелний звіт&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0394" y="-2" as="geometry">
+            <mxPoint x="-161" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InSUZTFv-AGbv1Kh3kdJ-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Виконане практичне завдання/лабораторна">
+          <mxGeometry relative="1" x="-0.4784" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="250.02999999999997" y="310" />
+            </Array>
+            <mxPoint x="60" y="310" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
