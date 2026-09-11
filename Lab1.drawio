@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="Оцінювати навчальні досягнення студента" vertex="1">
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="Оцінювання навчального процесу студента" vertex="1">
           <mxGeometry height="100" width="220" x="360" y="360" as="geometry" />
         </mxCell>
         <mxCell id="i1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" target="a0" value="Результати навчання та оцінки">
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o2" edge="1" parent="1" source="a0" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" value="Оцінки у заліковій книжці (ECTS, національна шкала)">
-          <mxGeometry relative="1" x="0.4615" y="-10" as="geometry">
+          <mxGeometry relative="1" x="0.1538" y="-20" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="800" y="450" as="targetPoint" />
           </mxGeometry>
@@ -79,7 +79,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e6" edge="1" parent="1" source="p4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" value="Результат оцінювання">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="-0.4286" y="-20" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="820" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
