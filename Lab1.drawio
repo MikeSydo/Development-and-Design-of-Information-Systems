@@ -14,7 +14,12 @@
         </mxCell>
         <mxCell id="i2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" target="a0" value="Журнал відвідування">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="470" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="490" />
+              <mxPoint x="470" y="490" />
+            </Array>
+            <mxPoint x="80" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" target="a0" value="Критерії оцінювання та навчальний план">
