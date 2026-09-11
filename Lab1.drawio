@@ -12,14 +12,14 @@
             <mxPoint x="80" y="410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" target="a0" value="Журнал відвідування">
+        <mxCell id="i2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="a0" value="Журнал відвідування">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="80" y="490" />
-              <mxPoint x="470" y="490" />
+              <mxPoint x="80" y="440" />
+              <mxPoint x="80" y="435" />
             </Array>
-            <mxPoint x="80" y="490" as="sourcePoint" />
+            <mxPoint x="70" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" target="a0" value="Критерії оцінювання та навчальний план">
