@@ -623,10 +623,10 @@
             <mxPoint x="10" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nU8NFCq2lOgzCj5WN2SJ-1" edge="1" parent="1" source="FHSzzO6Fi_zAMqmbLvRS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="FHSzzO6Fi_zAMqmbLvRS-11">
+        <mxCell id="nU8NFCq2lOgzCj5WN2SJ-1" edge="1" parent="1" source="FHSzzO6Fi_zAMqmbLvRS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="FHSzzO6Fi_zAMqmbLvRS-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dfni5CSSMv7kFNB371GU-1" connectable="0" parent="nU8NFCq2lOgzCj5WN2SJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;(Потреба у повторному&amp;nbsp;&lt;/div&gt;&lt;div&gt;складанні проміжної&amp;nbsp;&lt;/div&gt;&lt;div&gt;атестації)&lt;/div&gt;" vertex="1">
+        <mxCell id="dfni5CSSMv7kFNB371GU-1" connectable="0" parent="nU8NFCq2lOgzCj5WN2SJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Потреба у повторному&amp;nbsp;&lt;/div&gt;&lt;div&gt;складанні проміжної&amp;nbsp;&lt;/div&gt;&lt;div&gt;атестації&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.3176" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -890,7 +890,7 @@
             <mxPoint x="710" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ZrXzRmVprQblE46wre0-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+        <mxCell id="_ZrXzRmVprQblE46wre0-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" value="">
           <mxGeometry relative="1" x="-0.4138" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -901,7 +901,7 @@
             <mxPoint x="1330" y="919.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ZrXzRmVprQblE46wre0-2" connectable="0" parent="_ZrXzRmVprQblE46wre0-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;(Програмна реалізація системи)&lt;/font&gt;" vertex="1">
+        <mxCell id="_ZrXzRmVprQblE46wre0-2" connectable="0" parent="_ZrXzRmVprQblE46wre0-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Програмна реалізація системи&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1798" y="6" as="geometry">
             <mxPoint x="11" y="-13" as="offset" />
           </mxGeometry>
