@@ -899,7 +899,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="A2F FEO" id="feo_a22">
-    <mxGraphModel dx="2811" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -987,6 +987,14 @@
         <mxCell id="FHSzzO6Fi_zAMqmbLvRS-14" connectable="0" parent="FHSzzO6Fi_zAMqmbLvRS-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Семестрові бали" vertex="1">
           <mxGeometry relative="1" x="-0.1131" y="-2" as="geometry">
             <mxPoint x="10" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nU8NFCq2lOgzCj5WN2SJ-1" edge="1" parent="1" source="FHSzzO6Fi_zAMqmbLvRS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="FHSzzO6Fi_zAMqmbLvRS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfni5CSSMv7kFNB371GU-1" connectable="0" parent="nU8NFCq2lOgzCj5WN2SJ-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;(Потреба у повторному&amp;nbsp;&lt;/div&gt;&lt;div&gt;складанні проміжної&amp;nbsp;&lt;/div&gt;&lt;div&gt;атестації)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3176" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FHSzzO6Fi_zAMqmbLvRS-17" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;Сформувати семестровий&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;результат&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;А25&lt;/div&gt;" vertex="1">
