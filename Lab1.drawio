@@ -48,7 +48,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="A0 Декомпозиція оцінювання" id="dec0">
-    <mxGraphModel dx="2680" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3436" dy="2176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,8 +157,15 @@
             <mxPoint x="37" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vnXV9UxJSGMwxh0NnNZ1-48" edge="1" parent="1" source="vnXV9UxJSGMwxh0NnNZ1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="vnXV9UxJSGMwxh0NnNZ1-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vnXV9UxJSGMwxh0NnNZ1-48" edge="1" parent="1" source="vnXV9UxJSGMwxh0NnNZ1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="vnXV9UxJSGMwxh0NnNZ1-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="307.47" />
+              <mxPoint x="1100" y="370.06" />
+              <mxPoint x="650" y="370.06" />
+              <mxPoint x="650" y="212.53" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vnXV9UxJSGMwxh0NnNZ1-49" connectable="0" parent="vnXV9UxJSGMwxh0NnNZ1-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потреба у повторному&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;оцінювані(Талон, Комісія)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2663" y="-4" as="geometry">
