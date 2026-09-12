@@ -1161,7 +1161,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AdBDEHcUlzGrTviUumz-" name="A2R декомпонована">
-    <mxGraphModel dx="1080" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1320,17 +1320,6 @@
             </Array>
             <mxPoint x="1370" y="480.5" as="sourcePoint" />
             <mxPoint x="1730" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gqqF0uXD21JJhQUvWwTG-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vr4cWmsZXihjmeVbagkl-11" value="">
-          <mxGeometry relative="1" x="-0.7291" as="geometry">
-            <mxPoint y="1" as="offset" />
-            <Array as="points">
-              <mxPoint x="740" y="540.07" />
-              <mxPoint x="460" y="540.07" />
-            </Array>
-            <mxPoint x="740" y="650" as="sourcePoint" />
-            <mxPoint x="1037" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqqF0uXD21JJhQUvWwTG-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vr4cWmsZXihjmeVbagkl-13" value="">
