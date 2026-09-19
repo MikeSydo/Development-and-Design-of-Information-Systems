@@ -1,9 +1,133 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="SwXKgAxKManQLQ1ezacF">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-04-10T12:00:00.000Z" agent="Mozilla/5.0" version="21.0.0" type="device">
+  <diagram id="dfd_data_lifecycle" name="DFD Data Life Cycle">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+
+        <!-- Зовнішні сутності (External Entities) -->
+        <mxCell id="EE1" value="Зовнішнє середовище /&lt;br&gt;Партнери / Репозиторії" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="EE2" value="Керівництво /&lt;br&gt;Ініціатори проекту" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="EE3" value="Споживачі /&lt;br&gt;Дослідники / Стейкхолдери" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Процеси (Processes - DFD Gane-Sarson / Sarson) -->
+        <!-- 1. Data Discovery -->
+        <mxCell id="P1" value="1&lt;br&gt;&lt;b&gt;Data Discovery&lt;/b&gt;&lt;br&gt;(Пошук та виявлення даних)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 2. Proposal Planning & Writing -->
+        <mxCell id="P2" value="2&lt;br&gt;&lt;b&gt;Proposal Planning &amp; Writing&lt;/b&gt;&lt;br&gt;(Планування та опис)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 3. Project Start Up -->
+        <mxCell id="P3" value="3&lt;br&gt;&lt;b&gt;Project Start Up&lt;/b&gt;&lt;br&gt;(Запуск проекту)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 4. Data Collection -->
+        <mxCell id="P4" value="4&lt;br&gt;&lt;b&gt;Data Collection&lt;/b&gt;&lt;br&gt;(Збір первинних даних)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 5. Data Analysis -->
+        <mxCell id="P5" value="5&lt;br&gt;&lt;b&gt;Data Analysis&lt;/b&gt;&lt;br&gt;(Аналіз та обробка)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 6. Data Sharing -->
+        <mxCell id="P6" value="6&lt;br&gt;&lt;b&gt;Data Sharing&lt;/b&gt;&lt;br&gt;(Поширення та обмін)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 7. End of Project -->
+        <mxCell id="P7" value="7&lt;br&gt;&lt;b&gt;End of Project&lt;/b&gt;&lt;br&gt;(Завершення проекту)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="980" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Сховище даних (Data Store - Data Archive) -->
+        <mxCell id="DS1" value="D1 | Data Archive (Архів та репозиторій даних)" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="230" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Потоки даних (Data Flows) -->
+        <!-- Пошук та виявлення -->
+        <mxCell id="F1" value="Запит на зовнішні ресурси" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EE1" target="P1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="F2" value="Метадані існуючих робіт" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P1" target="P2">
+          <mxGeometry relative="1" as="geometry">
+            <Array points="350,180;140,180" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Re-Use з архіву в Discovery -->
+        <mxCell id="F3" value="Re-Use: заархівовані дані" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DS1" target="P1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Ініціація та старт -->
+        <mxCell id="F4" value="Ініціація та вимоги" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EE2" target="P2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="F5" value="Затверджений план проекту" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P2" target="P3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="F6" value="Регламент та ресурси" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P3" target="P4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Збір -> Аналіз -> Поширення -->
+        <mxCell id="F7" value="Сирі дані (Raw data)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P4" target="P5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="F8" value="Оброблений масив (Processed)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P5" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Re-Purpose цикл зворотного зв'язку -->
+        <mxCell id="F9" value="Re-Purpose: повторне використання" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P6" target="P4">
+          <mxGeometry relative="1" as="geometry">
+            <Array points="880,480;520,480" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Поширення користувачам -->
+        <mxCell id="F10" value="Публікації, звіти, API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P6" target="EE3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Завершення проекту -->
+        <mxCell id="F11" value="Звітні дані проекту" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P6" target="P7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Deposit в архів -->
+        <mxCell id="F12" value="Deposit: збереження артефактів" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.9;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7" target="DS1">
+          <mxGeometry relative="1" as="geometry">
+            <Array points="1050,110;847,110" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Зв'язок Discovery та Collection -->
+        <mxCell id="F13" value="Знайдені набори даних" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P1" target="P4">
+          <mxGeometry relative="1" as="geometry">
+            <Array points="400,280;485,280" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
