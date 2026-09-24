@@ -177,69 +177,61 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="bF0DfQvIHn0s2qmasYGC" name="Kanban">
-    <mxGraphModel dx="918" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="kanban-idef3" name="IDEF3 Kanban Workflow">
+    <mxGraphModel dx="1530" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-<diagram id="kanban-idef3" name="IDEF3 Kanban Workflow">
-    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="title" value="IDEF3-модель Kanban workflow" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="30" width="600" height="40" as="geometry"/>
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" value="IDEF3-модель Kanban workflow" vertex="1">
+          <mxGeometry height="40" width="600" x="300" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="Послідовне проходження завдань через етапи Kanban-дошки" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="300" y="75" width="600" height="30" as="geometry"/>
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" value="Послідовне проходження завдань через етапи Kanban-дошки" vertex="1">
+          <mxGeometry height="30" width="600" x="300" y="75" as="geometry" />
         </mxCell>
-        <mxCell id="input" value="Нове завдання /&lt;br&gt;вимога" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="130" height="70" as="geometry"/>
+        <mxCell id="input" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=center;verticalAlign=middle;" value="Нове завдання /&lt;br&gt;вимога" vertex="1">
+          <mxGeometry height="70" width="130" x="40" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="pending" value="&lt;b&gt;1. Очікування&lt;/b&gt;&lt;br&gt;Pending&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 6&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="220" y="245" width="170" height="125" as="geometry"/>
+        <mxCell id="pending" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;align=center;verticalAlign=middle;" value="&lt;b&gt;1. Очікування&lt;/b&gt;&lt;br&gt;Pending&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 6&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="170" x="220" y="245" as="geometry" />
         </mxCell>
-        <mxCell id="analysis" value="&lt;b&gt;2. Аналіз вимог&lt;/b&gt;&lt;br&gt;Analysis&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="460" y="245" width="170" height="125" as="geometry"/>
+        <mxCell id="analysis" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;align=center;verticalAlign=middle;" value="&lt;b&gt;2. Аналіз вимог&lt;/b&gt;&lt;br&gt;Analysis&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="170" x="460" y="245" as="geometry" />
         </mxCell>
-        <mxCell id="development" value="&lt;b&gt;3. Розроблення&lt;/b&gt;&lt;br&gt;Development&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 5&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="700" y="245" width="170" height="125" as="geometry"/>
+        <mxCell id="development" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;align=center;verticalAlign=middle;" value="&lt;b&gt;3. Розроблення&lt;/b&gt;&lt;br&gt;Development&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="170" x="700" y="245" as="geometry" />
         </mxCell>
-        <mxCell id="test" value="&lt;b&gt;4. Тестування&lt;/b&gt;&lt;br&gt;Test&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="940" y="245" width="170" height="125" as="geometry"/>
+        <mxCell id="test" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;align=center;verticalAlign=middle;" value="&lt;b&gt;4. Тестування&lt;/b&gt;&lt;br&gt;Test&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="170" x="940" y="245" as="geometry" />
         </mxCell>
-        <mxCell id="deploy" value="&lt;b&gt;5. Розгортання&lt;/b&gt;&lt;br&gt;Deploy&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 5&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="245" width="170" height="125" as="geometry"/>
+        <mxCell id="deploy" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;align=center;verticalAlign=middle;" value="&lt;b&gt;5. Розгортання&lt;/b&gt;&lt;br&gt;Deploy&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;WIP = 5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="170" x="1180" y="245" as="geometry" />
         </mxCell>
-        <mxCell id="output" value="Розгорнута&lt;br&gt;функціональність" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="280" width="140" height="70" as="geometry"/>
+        <mxCell id="output" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;verticalAlign=middle;" value="Розгорнута&lt;br&gt;функціональність" vertex="1">
+          <mxGeometry height="70" width="140" x="1410" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="e0" value="Нове завдання" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="input" target="pending">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e0" edge="1" parent="1" source="input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" target="pending" value="Нове завдання">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e1" value="Завдання для аналізу" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="pending" target="analysis">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e1" edge="1" parent="1" source="pending" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" target="analysis" value="Завдання для аналізу">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e2" value="Проаналізоване завдання" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="analysis" target="development">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e2" edge="1" parent="1" source="analysis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" target="development" value="Проаналізоване завдання">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" value="Готовий код" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="development" target="test">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e3" edge="1" parent="1" source="development" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" target="test" value="Готовий код">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e4" value="Перевірений реліз" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="test" target="deploy">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e4" edge="1" parent="1" source="test" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" target="deploy" value="Перевірений реліз">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" value="Готовий результат" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="deploy" target="output">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="e5" edge="1" parent="1" source="deploy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;" target="output" value="Готовий результат">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="note" value="Примітка: WIP (Work in Progress) — кількість завдань, які одночасно перебувають на відповідному етапі. Загальний WIP: 22 завдання." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
-          <mxGeometry x="490" y="500" width="600" height="80" as="geometry"/>
+        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;verticalAlign=middle;spacingLeft=10;spacingTop=8;" value="Примітка: WIP (Work in Progress) — кількість завдань, які одночасно перебувають на відповідному етапі. Загальний WIP: 22 завдання." vertex="1">
+          <mxGeometry height="80" width="600" x="490" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="footer" value="Тип зв’язків: Precedence (суцільні напрямлені стрілки)" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="440" y="620" width="700" height="30" as="geometry"/>
+        <mxCell id="footer" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#666666;" value="Тип зв’язків: Precedence (суцільні напрямлені стрілки)" vertex="1">
+          <mxGeometry height="30" width="700" x="440" y="620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
