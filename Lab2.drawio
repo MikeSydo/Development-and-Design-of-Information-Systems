@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="5.0" pages="3">
+<mxfile host="app.diagrams.net" agent="5.0" pages="4">
   <diagram id="context_diagram" name="DFD - Контекст">
     <mxGraphModel dx="1020" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -377,113 +377,95 @@
       </root>
     </mxGraphModel>
   </diagram>
-<diagram id="kanban_idef3_diagram" name="IDEF3 - Kanban Workflow">
-  <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
-    <root>
-      <mxCell id="0" />
-      <mxCell id="1" parent="0" />
-
-      <!-- Diagram Title / Header -->
-      <mxCell id="k_header" value="&lt;b&gt;IDEF3 Модель взаємодії процесів для Kanban Workflow&lt;/b&gt;&lt;br&gt;Обмеження WIP (Work in Progress): Pending (6), Analysis (3), Development (5), Test (3), Deploy (5)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=13;align=center;" parent="1" vertex="1">
-        <mxGeometry x="50" y="40" width="1200" height="50" as="geometry" />
-      </mxCell>
-
-      <!-- UOB 1: Pending -->
-      <mxCell id="k_uob_1" value="WIP: 6&lt;br&gt;&lt;br&gt;&lt;b&gt;Pending&lt;br&gt;(Черга задач)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" parent="1" vertex="1">
-        <mxGeometry x="60" y="180" width="160" height="110" as="geometry" />
-      </mxCell>
-
-      <!-- UOB 2: Analysis -->
-      <mxCell id="k_uob_2" value="WIP: 3 (Doing / Done)&lt;br&gt;&lt;br&gt;&lt;b&gt;Analysis&lt;br&gt;(Аналіз вимог)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" parent="1" vertex="1">
-        <mxGeometry x="290" y="180" width="170" height="110" as="geometry" />
-      </mxCell>
-
-      <!-- UOB 3: Development -->
-      <mxCell id="k_uob_3" value="WIP: 5 (Doing / Done)&lt;br&gt;&lt;br&gt;&lt;b&gt;Development&lt;br&gt;(Розробка)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" parent="1" vertex="1">
-        <mxGeometry x="530" y="180" width="170" height="110" as="geometry" />
-      </mxCell>
-
-      <!-- UOB 4: Test -->
-      <mxCell id="k_uob_4" value="WIP: 3&lt;br&gt;&lt;br&gt;&lt;b&gt;Test&lt;br&gt;(Тестування)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" parent="1" vertex="1">
-        <mxGeometry x="770" y="180" width="160" height="110" as="geometry" />
-      </mxCell>
-
-      <!-- Junction J1 (XOR) -->
-      <mxCell id="k_j1" value="X" style="rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=14;fontStyle=1;align=center;" parent="1" vertex="1">
-        <mxGeometry x="980" y="215" width="40" height="40" as="geometry" />
-      </mxCell>
-      <mxCell id="k_j1_label" value="J1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-        <mxGeometry x="985" y="257" width="30" height="20" as="geometry" />
-      </mxCell>
-
-      <!-- UOB 5: Deploy -->
-      <mxCell id="k_uob_5" value="WIP: 5&lt;br&gt;&lt;br&gt;&lt;b&gt;Deploy&lt;br&gt;(Розгортання)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" parent="1" vertex="1">
-        <mxGeometry x="1090" y="180" width="160" height="110" as="geometry" />
-      </mxCell>
-
-      <!-- Referents (R) -->
-      <mxCell id="k_ref_1" value="R&lt;br&gt;Definition of Done" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FBC02D;strokeWidth=1.5;fontColor=#333333;fontSize=10;align=center;" parent="1" vertex="1">
-        <mxGeometry x="785" y="350" width="130" height="50" as="geometry" />
-      </mxCell>
-
-      <mxCell id="k_ref_2" value="R&lt;br&gt;Kanban WIP Limits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FBC02D;strokeWidth=1.5;fontColor=#333333;fontSize=10;align=center;" parent="1" vertex="1">
-        <mxGeometry x="410" y="350" width="140" height="50" as="geometry" />
-      </mxCell>
-
-      <!-- Sequential Edges / Connections -->
-      <mxCell id="k_e_1" value="Перехід задачі" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" parent="1" source="k_uob_1" target="k_uob_2" edge="1">
-        <mxGeometry relative="1" as="geometry" />
-      </mxCell>
-
-      <mxCell id="k_e_2" value="Готово до розробки" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" parent="1" source="k_uob_2" target="k_uob_3" edge="1">
-        <mxGeometry relative="1" as="geometry" />
-      </mxCell>
-
-      <mxCell id="k_e_3" value="Готово до тесту" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" parent="1" source="k_uob_3" target="k_uob_4" edge="1">
-        <mxGeometry relative="1" as="geometry" />
-      </mxCell>
-
-      <mxCell id="k_e_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=0;" parent="1" source="k_uob_4" target="k_j1" edge="1">
-        <mxGeometry relative="1" as="geometry" />
-      </mxCell>
-
-      <mxCell id="k_e_5" value="Тест пройдено" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" parent="1" source="k_j1" target="k_uob_5" edge="1">
-        <mxGeometry relative="1" as="geometry" />
-      </mxCell>
-
-      <!-- Rework Loop -->
-      <mxCell id="k_e_rework" value="Виявлено дефекти (На доопрацювання)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#CC0000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;fontColor=#CC0000;" parent="1" source="k_j1" target="k_uob_3" edge="1">
-        <mxGeometry relative="1" as="geometry">
-          <Array as="points">
-            <mxPoint x="1000" y="110" />
-            <mxPoint x="615" y="110" />
-          </Array>
-        </mxGeometry>
-      </mxCell>
-
-      <!-- Referent Links -->
-      <mxCell id="k_r_link_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#999999;strokeWidth=1;dashed=1;endArrow=none;" parent="1" source="k_ref_1" target="k_uob_4" edge="1">
-        <mxGeometry relative="1" as="geometry" />
-      </mxCell>
-
-      <mxCell id="k_r_link_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#999999;strokeWidth=1;dashed=1;endArrow=none;" parent="1" source="k_ref_2" target="k_uob_2" edge="1">
-        <mxGeometry relative="1" as="geometry">
-          <Array as="points">
-            <mxPoint x="480" y="320" />
-            <mxPoint x="375" y="320" />
-          </Array>
-        </mxGeometry>
-      </mxCell>
-
-      <mxCell id="k_r_link_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#999999;strokeWidth=1;dashed=1;endArrow=none;" parent="1" source="k_ref_2" target="k_uob_3" edge="1">
-        <mxGeometry relative="1" as="geometry">
-          <Array as="points">
-            <mxPoint x="480" y="320" />
-            <mxPoint x="615" y="320" />
-          </Array>
-        </mxGeometry>
-      </mxCell>
-    </root>
-  </mxGraphModel>
-</diagram>
+  <diagram id="kanban_idef3_diagram" name="IDEF3 - Kanban Workflow">
+    <mxGraphModel dx="1224" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k_uob_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" value="WIP: 6&lt;br&gt;&lt;br&gt;&lt;b&gt;Pending&lt;br&gt;(Черга задач)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.1" vertex="1">
+          <mxGeometry height="110" width="160" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k_uob_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" value="WIP: 3 (Doing / Done)&lt;br&gt;&lt;br&gt;&lt;b&gt;Analysis&lt;br&gt;(Аналіз вимог)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.2" vertex="1">
+          <mxGeometry height="110" width="170" x="290" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="94Q9NYEL9VxS3ITJHjcL-1" edge="1" parent="1" source="k_uob_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="k_uob_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94Q9NYEL9VxS3ITJHjcL-2" edge="1" parent="1" source="k_uob_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="k_uob_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_uob_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" value="WIP: 5 (Doing / Done)&lt;br&gt;&lt;br&gt;&lt;b&gt;Development&lt;br&gt;(Розробка)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.3" vertex="1">
+          <mxGeometry height="110" width="170" x="530" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k_uob_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" value="WIP: 3&lt;br&gt;&lt;br&gt;&lt;b&gt;Test&lt;br&gt;(Тестування)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.4" vertex="1">
+          <mxGeometry height="110" width="160" x="770" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k_j1" parent="1" style="rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=14;fontStyle=1;align=center;" value="X" vertex="1">
+          <mxGeometry height="40" width="40" x="980" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="k_j1_label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=1;" value="J1" vertex="1">
+          <mxGeometry height="20" width="30" x="985" y="257" as="geometry" />
+        </mxCell>
+        <mxCell id="k_uob_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=11;align=center;" value="WIP: 5&lt;br&gt;&lt;br&gt;&lt;b&gt;Deploy&lt;br&gt;(Розгортання)&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.5" vertex="1">
+          <mxGeometry height="110" width="160" x="1090" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k_ref_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FBC02D;strokeWidth=1.5;fontColor=#333333;fontSize=10;align=center;" value="R&lt;br&gt;Definition of Done" vertex="1">
+          <mxGeometry height="50" width="130" x="785" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k_ref_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FBC02D;strokeWidth=1.5;fontColor=#333333;fontSize=10;align=center;" value="R&lt;br&gt;Kanban WIP Limits" vertex="1">
+          <mxGeometry height="50" width="140" x="410" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k_e_1" edge="1" parent="1" source="k_uob_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" target="k_uob_2" value="&lt;div&gt;Перехід&lt;/div&gt;&lt;div&gt;&amp;nbsp;задачі&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1429" y="5" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_e_2" edge="1" parent="1" source="k_uob_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" target="k_uob_3" value="&lt;div&gt;Готово&amp;nbsp;&lt;/div&gt;&lt;div&gt;до розробки&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1429" y="15" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_e_3" edge="1" parent="1" source="k_uob_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" target="k_uob_4" value="&lt;div&gt;Готово&amp;nbsp;&lt;/div&gt;&lt;div&gt;до тесту&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1429" y="5" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_e_4" edge="1" parent="1" source="k_uob_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=none;endFill=0;" target="k_j1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_e_5" edge="1" parent="1" source="k_j1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;" target="k_uob_5" value="&lt;div&gt;Тест&amp;nbsp;&lt;/div&gt;&lt;div&gt;пройдено&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1429" y="25" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_e_rework" edge="1" parent="1" source="k_j1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=light-dark(#CC0000,#FFFFFF);strokeWidth=1.5;fontSize=10;endArrow=classic;endFill=1;fontColor=light-dark(#CC0000,#FFFFFF);" target="k_uob_3" value="Виявлено дефекти (На доопрацювання)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="110" />
+              <mxPoint x="615" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_r_link_1" edge="1" parent="1" source="k_ref_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#999999;strokeWidth=1;dashed=1;endArrow=none;" target="k_uob_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k_r_link_2" edge="1" parent="1" source="k_ref_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#999999;strokeWidth=1;dashed=1;endArrow=none;" target="k_uob_2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="320" />
+              <mxPoint x="375" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_r_link_3" edge="1" parent="1" source="k_ref_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#999999;strokeWidth=1;dashed=1;endArrow=none;" target="k_uob_3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="320" />
+              <mxPoint x="615" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
