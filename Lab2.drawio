@@ -157,19 +157,19 @@
         </mxCell>
 
         <!-- Data Stores -->
-        <mxCell id="d_ds_1" value="D1&amp;nbsp;&amp;nbsp;Реєстр проєктів" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="d_ds_1" value="D1  Реєстр проєктів" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="680" y="165" width="220" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="d_ds_2" value="D2&amp;nbsp;&amp;nbsp;Сховище первинних даних" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="d_ds_2" value="D2  Сховище первинних даних" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="300" y="340" width="220" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="d_ds_3" value="D3&amp;nbsp;&amp;nbsp;Сховище результатів аналізу" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="d_ds_3" value="D3  Сховище результатів аналізу" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1060" y="340" width="220" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="d_ds_4" value="D4&amp;nbsp;&amp;nbsp;Архів даних" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="d_ds_4" value="D4  Архів даних" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;top=0;bottom=0;left=1;right=0;html=1;fontColor=#E65100;fontSize=12;fontStyle=1;align=center;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="870" y="1010" width="220" height="60" as="geometry" />
         </mxCell>
 
@@ -455,52 +455,6 @@
 
         <mxCell id="t_e_6_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" parent="1" source="t_p6" target="t_p6_1" edge="1" />
         <mxCell id="t_e_6_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" parent="1" source="t_p6" target="t_p6_2" edge="1" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile><mxfile host="app.diagrams.net">
-  <diagram id="dfd-context" name="DFD - Контекст">
-    <mxGraphModel>
-      <root>
-
-        <!-- Зовнішня сутність -->
-        <mxCell
-          id="e1"
-          value="Ініціатор / дослідник"
-          style="shape=rectangle;whiteSpace=wrap;html=1;"
-          vertex="1"
-          parent="1">
-          <mxGeometry x="55" y="200"
-                      width="180" height="75"
-                      as="geometry"/>
-        </mxCell>
-
-        <!-- Процес -->
-        <mxCell
-          id="p0"
-          value="0&#xa;Управління життєвим циклом даних дослідницького проєкту"
-          style="rounded=1;whiteSpace=wrap;html=1;"
-          vertex="1"
-          parent="1">
-          <mxGeometry x="405" y="250"
-                      width="360" height="170"
-                      as="geometry"/>
-        </mxCell>
-
-        <!-- Потік даних -->
-        <mxCell
-          id="f1"
-          value="Проєктна пропозиція / вимоги"
-          style="edgeStyle=orthogonalEdgeStyle;
-                 html=1;endArrow=block;"
-          edge="1"
-          parent="1"
-          source="e1"
-          target="p0">
-          <mxGeometry relative="1"
-                       as="geometry"/>
-        </mxCell>
-
       </root>
     </mxGraphModel>
   </diagram>
